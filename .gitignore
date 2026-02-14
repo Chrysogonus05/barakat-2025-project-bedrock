@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Personal creds (never commit!)
+aws-credentials
+personal.tfvars
